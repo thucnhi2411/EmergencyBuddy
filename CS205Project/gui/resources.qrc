@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>map.html</file>
+        <file>eb.png</file>
+        <file>pfaffnick.png</file>
+    </qresource>
+</RCC>

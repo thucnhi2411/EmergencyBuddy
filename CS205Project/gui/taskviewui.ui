@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>taskviewui</class>
+ <widget class="QWidget" name="taskviewui">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>822</width>
+    <height>573</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(245, 246, 250);
+</string>
+  </property>
+  <widget class="QScrollArea" name="scrollArea">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>59</y>
+     <width>451</width>
+     <height>501</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Raleway</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(196, 225, 255);
+color: rgb(12, 36, 97);</string>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>449</width>
+      <height>499</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QTextEdit" name="feedback">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>190</y>
+     <width>251</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Raleway</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(196, 225, 255);
+color: rgb(12, 36, 97);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>520</y>
+     <width>75</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Raleway</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(196, 225, 255);
+color: rgb(12, 36, 97);</string>
+   </property>
+   <property name="text">
+    <string>Submit</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>140</y>
+     <width>211</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Raleway</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(12, 36, 97);
+</string>
+   </property>
+   <property name="text">
+    <string>Provide your feedback here</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>30</y>
+     <width>120</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Raleway</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(196, 225, 255);
+color: rgb(12, 36, 97);</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Normal Mode</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Simulation</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>111</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Raleway</family>
+     <pointsize>18</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(12, 36, 97);</string>
+   </property>
+   <property name="text">
+    <string>Events Feed</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
